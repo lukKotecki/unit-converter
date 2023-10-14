@@ -1,3 +1,39 @@
 body {
     margin: 0;
 }
+
+#container{
+
+    margin:10px;
+}
+
+#input-area{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: #6943FF;
+    width: 550px;
+    height: 285px;
+    align-items: center;
+}
+
+#input-area h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 38px; 
+    letter-spacing: -0.84px;
+    padding: 0px;
+    margin: 33px;
+}
+
+#input-value {
+    width: 117px;
+    height: 83px;
+    background-color: #6943FF;
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+} 
