@@ -1,10 +1,15 @@
 body {
     margin: 0;
+    display: flex;
 }
 
 #container{
-
-    margin:10px;
+    margin: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    border: solid black 1px;
+    height: 730px;
+    background-color: #F4F4F4;;
 }
 
 #input-area{
@@ -31,9 +36,60 @@ body {
 }
 
 #input-value {
-    width: 117px;
+    width: 220px;
     height: 83px;
     background-color: #6943FF;
     border-radius: 5px;
     border: 2px solid #B295FF;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
 } 
+#input-value:hover {
+    background-color: #6c49f7;
+}
+
+#convert-btn {
+    margin-top: 26px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    display: inline-flex;
+    padding: 9px 27px;
+}
+#convert-btn:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+    background-color: #eee;
+}
+
+#output-area{
+    background: #F4F4F4;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 444px;
+}
+.output-field {
+    text-align: center;
+    background-color: white;
+    margin: 20px;
+    padding-top: 31px;
+    color: #353535;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+.output-field h2{
+    margin: 0px;
+}
+.output-field p{
+    margin-top: 9px;
+    margin-bottom: 20px;
+}
